@@ -1,12 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mert Kaplandar</title>
+    <title>Kişisel Tanıtım</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ffffff;
+        }
+        .social-buttons a {
+            margin: 0 10px;
+            color: #ffffff;
+        }
+        .social-buttons a .fab {
+            margin-right: 8px;
+        }
+        .footer {
+            margin-top: 50px;
+            color: #757575;
+        }
+        .card {
+            background-color: #2b2b2b;
+            border: none;
+        }
+        .card-body {
+            padding: 2rem;
+        }
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .language-switcher i {
+            margin-right: 8px;
+        }
+        .language-options {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            background-color: #333333;
+            border-radius: 4px;
+            padding: 5px 10px;
+            z-index: 1000;
+        }
+        .language-options a {
+            color: #ffffff;
+            display: block;
+            padding: 5px 0;
+        }
+        .language-options a:hover {
+            background-color: #555555;
+        }
+        @media (max-width: 576px) {
+            .social-buttons a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Mert Kaplandar'ın github.io web sitesidir.</h1>
-    <a href="https://github.com/mertkaplandar">My Github Profile</a>
+    <div class="container mt-5">
+        <div class="language-switcher" onclick="toggleLanguageOptions()">
+            <i class="fas fa-globe"></i>🌐
+            <div class="language-options" id="languageOptions">
+                <a href="#" onclick="changeLanguage('tr')">Türkçe</a>
+                <a href="#" onclick="changeLanguage('en')">English</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="profil-fotografi-url" alt="Profil Fotoğrafı" class="profile-pic mb-4">
+                        <h1 id="welcomeTitle">Mert Kaplandar</h1>
+                        <p id="introText">Merhaba, ben Mert Kaplandar. Kısaca kendimden bahsetmek gerekirse...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8 text-center">
+                <div class="social-buttons">
+                    <a href="https://www.facebook.com/[FacebookKullanıcıAdı]" class="btn btn-primary btn-lg" target="_blank">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://www.twitter.com/[TwitterKullanıcıAdı]" class="btn btn-info btn-lg" target="_blank">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                    <a href="https://www.linkedin.com/in/[LinkedInKullanıcıAdı]" class="btn btn-primary btn-lg" target="_blank">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://www.instagram.com/[InstagramKullanıcıAdı]" class="btn btn-danger btn-lg" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center mt-5">
+        <p>&copy; 2024 Mert Kaplandar. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom JS -->
+    <script>
+        function toggleLanguageOptions() {
+            var options = document.getElementById('languageOptions');
+            options.style.display = options.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function changeLanguage(language) {
+            var welcomeTitle = document.getElementById('welcomeTitle');
+            var introText = document.getElementById('introText');
+
+            if (language === 'en') {
+                welcomeTitle.innerText = 'Mert Kaplandar';
+                introText.innerText = 'Hello, I am Mert Kaplandar. Briefly about myself...';
+            } else if (language === 'tr') {
+                welcomeTitle.innerText = 'Mert Kaplandar';
+                introText.innerText = 'Merhaba, ben Mert Kaplandar. Kısaca kendimden bahsetmek gerekirse...';
+            }
+
+            // Hide language options after selection
+            var options = document.getElementById('languageOptions');
+            options.style.display = 'none';
+        }
+    </script>
 </body>
 </html>
