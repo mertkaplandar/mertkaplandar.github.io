@@ -1,0 +1,69 @@
+/* Navbar stilleri */
+    .navbar {
+      padding: 1rem;
+    }
+
+    /* Ana içerik */
+    .hero-section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #343a40; /* Koyu renk arka plan */
+      color: white;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    /* Hakkımda, Projelerim ve İletişim bölümlerinin stilleri */
+    .section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #f8f9fa; /* Açık renk arka plan */
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .section.visible, .hero-section.visible {
+      opacity: 1;
+    }
+
+    /* İletişim formu stilleri */
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    /* Profil fotoğrafı stilleri */
+    .profile-pic {
+      width: 200px; /* İstediğiniz genişlik */
+      height: 200px; /* İstediğiniz yükseklik */
+      object-fit: cover; /* Resmin kapsayıcıya sığmasını sağlar */
+      border-radius: 50%; /* Yuvarlak yapmak için */
+    }
+
+    /* Responsive düzenlemeler */
+    @media (max-width: 768px) {
+      .hero-section {
+        height: 100vh; /* Ekranın tamamını kaplaması için yükseklik ayarı */
+        padding: 2rem 1rem;
+      }
+      .section {
+        height: auto;
+        padding: 2rem 1rem;
+      }
+      .hero-section h1, .section h2 {
+        font-size: 1.5rem;
+      }
+      .lead {
+        font-size: 1rem;
+      }
+      #contact .section {
+        height: 100vh; /* İletişim kısmının ekranın tamamını kaplaması için yükseklik ayarı */
+        padding: 2rem 1rem;
+      }
+    }
