@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <title>Mert Kaplandar | Portfolyo</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -55,6 +55,29 @@
       object-fit: cover; /* Resmin kapsayıcıya sığmasını sağlar */
       border-radius: 50%; /* Yuvarlak yapmak için */
     }
+
+    /* Responsive düzenlemeler */
+    @media (max-width: 768px) {
+      .hero-section {
+        height: 100vh; /* Ekranın tamamını kaplaması için yükseklik ayarı */
+        padding: 2rem 1rem;
+      }
+      .section {
+        height: auto;
+        padding: 2rem 1rem;
+      }
+      .hero-section h1, .section h2 {
+        font-size: 1.5rem;
+      }
+      .lead {
+        font-size: 1rem;
+      }
+      #contact .section {
+        height: 100vh; /* İletişim kısmının ekranın tamamını kaplaması için yükseklik ayarı */
+        padding: 2rem 1rem;
+      }
+    }
+
   </style>
 </head>
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
