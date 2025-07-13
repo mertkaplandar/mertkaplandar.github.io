@@ -22,4 +22,6 @@ Bu site [Jekyll](https://jekyllrb.com/) altyapısıyla oluşturuldu ve [Netlify]
 İlk yazımı okuduğunuz için teşekkür ederim.  
 Görüşmek üzere! 👋
 
-# > "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
+---
+> "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
+---
