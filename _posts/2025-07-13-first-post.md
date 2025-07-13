@@ -10,7 +10,6 @@ Merhaba! 🎉
 
 Bugün **ilk blog yazımı** yayımlamanın heyecanını yaşıyorum. Bu blog, öğrendiğim teknolojileri, projelerimi ve deneyimlerimi paylaşmak için bir alan olacak. Özellikle **LoRa, gömülü sistemler, Arduino ve Raspberry Pi Pico** gibi konulara odaklanacağım.
 
-Bu site [Jekyll](https://jekyllrb.com/) altyapısıyla oluşturuldu ve [Netlify](https://netlify.com) üzerinde barındırılıyor. GitHub üzerinden version kontrolü yaparak içerik üretmeyi oldukça verimli buluyorum.
 
 ## Gelecek Yazılarda Neler Olacak?
 
@@ -22,6 +21,4 @@ Bu site [Jekyll](https://jekyllrb.com/) altyapısıyla oluşturuldu ve [Netlify]
 İlk yazımı okuduğunuz için teşekkür ederim.  
 Görüşmek üzere! 👋
 
----
-> "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
----
+// > "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
