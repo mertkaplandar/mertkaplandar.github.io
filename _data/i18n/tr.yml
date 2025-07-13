@@ -1,0 +1,57 @@
+# _data/i18n/tr.yml
+
+nav:
+  home: "Ana Sayfa"
+  about: "Hakkında"
+  posts: "Yazılar"
+  categories: "Kategoriler"
+  tags: "Etiketler"
+  archives: "Arşivler"
+  search: "Ara"
+
+footer:
+  copyright: "© 2025 Senin İsmin"
+  powered_by: "Hazırlayan"
+
+pagination:
+  previous: "Önceki"
+  next: "Sonraki"
+
+categories:
+  all: "Tümü"
+
+tags:
+  all: "Tümü"
+
+search:
+  placeholder: "Arama yap..."
+
+posts:
+  read_more: "Devamını oku"
+  published_on: "Yayınlanma tarihi:"
+  updated_on: "Güncellenme tarihi:"
+
+errors:
+  404:
+    title: "Sayfa Bulunamadı"
+    message: "Aradığınız sayfa mevcut değil veya taşınmış olabilir."
+
+comments:
+  title: "Yorumlar"
+  leave_comment: "Yorum bırak"
+  name: "İsim"
+  email: "E-posta"
+  content: "Yorumunuz"
+  submit: "Gönder"
+  success: "Yorumunuz başarıyla gönderildi."
+  error: "Bir hata oluştu, lütfen tekrar deneyin."
+
+reading_time:
+  one_minute: "1 dakika okuma süresi"
+  multiple_minutes: "%{count} dakika okuma süresi"
+
+date_formats:
+  default: "%d %B %Y"
+
+misc:
+  back_to_top: "Başa dön"
