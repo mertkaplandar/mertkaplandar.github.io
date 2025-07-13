@@ -2,8 +2,8 @@
 layout: post
 title:  "İlk Blog Yazım"
 date:   2025-07-13 23:45:00 +0300
-categories: [genel, duyuru]
-tags: [blog, jekyll, netlify, ilk]
+categories: [Genel]
+tags: [ilk gönderi]
 ---
 
 Merhaba! 🎉
@@ -22,4 +22,4 @@ Bu site [Jekyll](https://jekyllrb.com/) altyapısıyla oluşturuldu ve [Netlify]
 İlk yazımı okuduğunuz için teşekkür ederim.  
 Görüşmek üzere! 👋
 
-> "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
+# > "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
