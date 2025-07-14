@@ -8,17 +8,13 @@ tags: [ilk gönderi]
 
 Merhaba! 🎉
 
-Bugün **ilk blog yazımı** yayımlamanın heyecanını yaşıyorum. Bu blog, öğrendiğim teknolojileri, projelerimi ve deneyimlerimi paylaşmak için bir alan olacak. Özellikle **LoRa, gömülü sistemler, Arduino ve Raspberry Pi Pico** gibi konulara odaklanacağım.
-
+Bugün **ilk blog yazımı** yayımlamanın heyecanını yaşıyorum. Bu blog, öğrendiğim teknolojileri, projelerimi ve deneyimlerimi paylaşmak için bir alan olacak.
 
 ## Gelecek Yazılarda Neler Olacak?
 
-- Gömülü sistemlerde LoRa ile veri iletimi  
-- Aviyonik sistem tasarımı  
-- PyQt5 ile arayüz geliştirme  
-- Kendi yazdığım simülasyonlar
+- Gömülü Sistemler  
+- Lora Modülleri ile RF Haberleşme 
+- Model Roketler için Aviyonik Sistemler ve Yer İstasyonu Sistemleri 
 
 İlk yazımı okuduğunuz için teşekkür ederim.  
 Görüşmek üzere! 👋
-
-// > "Kodu yazmak kolaydır, önemli olan sürdürülebilir sistemler kurmaktır." – Ben 😄
