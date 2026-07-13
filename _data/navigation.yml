@@ -27,10 +27,10 @@ main:
     url: /year-archive/
     
   - title: "About"
-    url: /
+    url: /about/
     
   - title: "CV"
-    url: /
+    url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/

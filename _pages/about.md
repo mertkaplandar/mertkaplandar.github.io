@@ -1,9 +1,7 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
 author_profile: true
-redirect_from:
-  - /about/
 ---
 
 ## Welcome!
