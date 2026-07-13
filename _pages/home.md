@@ -4,7 +4,7 @@ permalink: /
 author_profile: true
 ---
 
-# Welcome!
+## Welcome!
 
 Hello! I'm **Mert Kaplandar**, an Electrical and Electronics Engineering student passionate about embedded systems, low-level programming, and hardware design.
 
