@@ -1,11 +1,10 @@
 ---
 title: "Rocket Avionics System"
+collection: portfolio
+permalink: /projects/rocket-avionics/
 excerpt: "Embedded avionics system developed for the Teknofest Rocket Competition."
-collection: projects
-permalink: /project/rocket-avionics/
 date: 2026-07-14
-header:
-  teaser: /images/500x300.png
+author_profile: true
 ---
 
 # Rocket Avionics System
