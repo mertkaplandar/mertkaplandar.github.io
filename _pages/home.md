@@ -39,13 +39,4 @@ At the moment, I am focusing on:
 
 ---
 
-## Explore My Work
-
-If you'd like to learn more about my work, feel free to visit the following sections:
-
-* **Projects** — Embedded software and hardware projects.
-* **Research** — Topics and technologies that interest me.
-* **Publications** — Future academic publications and technical reports.
-* **CV** — My education, technical skills, and experience.
-
 Thank you for visiting my website.
